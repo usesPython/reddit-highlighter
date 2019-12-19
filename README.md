@@ -1,2 +1,2 @@
 # reddit-highlighter
-Highlights new Reddit comments
+Firefox extension that highlights new Reddit comments
