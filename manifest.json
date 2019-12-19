@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Reddit Highlighter",
+    "version": "0.0.1",
+    
+    "description": "Highlights new reddit comments",
+    
+    "content_scripts": [
+        {
+            "exclude_matches": ["*://*.reddit.com/prefs/*", "*://*.reddit.com/settings/*"],
+            "matches": ["*://*.reddit.com/*"],
+            "js": ["highlighter.js"]
+        }
+    ]
+}
